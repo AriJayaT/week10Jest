@@ -58,7 +58,7 @@ function deleteA() {
               {created}
             </Text>
           </View>
-          <View style = {styles.rowContainer}>
+          <View testID="t1" style = {styles.rowContainer}>
             <TextInput style = {styles.sUser}
             onChangeText = {setEmail}
             value={email} />
@@ -101,6 +101,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: 30,
+    color: "#fff",
   },
   colContainer: {
     flexDirection: 'column',
