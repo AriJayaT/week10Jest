@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 // Import the functions you need from the SDKs you need
 
+require("../../ReactotronConfig");
 
 export default function HomeScreen() {
   
